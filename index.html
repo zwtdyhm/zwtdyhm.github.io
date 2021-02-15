@@ -45,6 +45,16 @@
   </div>
   <style>	.aplayer-list-title{		color: #333;	}</style>
   <div id="bg"></div>
+
+  <style>
+img{
+position:fixed!important;bottom:10px;z-index:100;
+position:absolute;
+top:expression(eval(document.body.scrollTop + (document.body.clientHeight)-10-(this.offsetHeight)));left:10px
+}
+</style>
+<img src='anything.jpg'>
+
   <script src="jquery.min.js"></script>
   <script src="skel.min.js"></script>
   <script src="main.js"></script>
