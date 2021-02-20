@@ -4,8 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta charset=”utf-8″>
-  <meta name=”viewport” content=”width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover”>
-  <div id=”tips” style=”font-size:25px;text-align: center;line-height: 50px;”></div>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <title>张文涛的主页</title> 
   <meta name="keywords" content="引导,个人,网站，网，站"> 
   <meta name="description" content="信息唯有分享才重要！！"> 
@@ -49,44 +48,6 @@
   <script src="https://zwtdyhm.github.io/skel.min.js"></script>
   <script src="https://zwtdyhm.github.io/"></script>
   <script src="https://zwtdyhm.github.io/time.js"></script>
-  <script>
-  var url = document.location.toString();
-  var urlParmStr = url.slice(url.indexOf(‘=’)+1);
-  var ua = navigator.userAgent.toLowerCase();
-  var isWeixin = ua.indexOf(‘micromessenger’) != -1;
-  var isAndroid = ua.indexOf(‘android’) != -1;
-  var isIos = (ua.indexOf(‘iphone’) != -1) || (ua.indexOf(‘ipad’) != -1);
-  // 判断是不是在微信客户端打开
-  if(isWeixin) {
-  // 判断是在Android的微信客户端还是Ios的微信客户端
-  if (isAndroid) {
-  document.getElementById(“tips”).innerHTML=”请在浏览器打开本页面”;
-  }else if (isIos) {
-  document.getElementById(“tips”).innerHTML=”请在浏览器打开本页面”;
-  }else{
-  document.getElementById(“tips”).innerHTML=”请在浏览器打开本页面”;
-  }
-  } else {
-  // 不是微信客户端，直接可以访问链接
-  location.href=urlParmStr;
-  }
-  </script>
-  <script src="https://open.mobile.qq.com/sdk/qqapi.js?_bid=152"></script>
-  <script type="text/javascript">//引入TX JS
-  mqq.ui.setTitleButtons({
-  right : {
-  title : "投诉",
-  hidden: true
-  }
-  })
-  </script>
-  <script>
-  document.getElementsByTagName=function(a)    {
-    if (a=='meta') {
-  location.href='https://github.com';//强跳地址
-    }
-  };
-  </script>
   <script>
 (function(){
     var bp = document.createElement('script');
